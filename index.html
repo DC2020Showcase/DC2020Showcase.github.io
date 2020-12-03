@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>DC Showcase -- Fall 2020</title>
+    <title>Fall 2020 DC Showcase</title>
 
     <!-- Lato Font -->
     <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
@@ -17,673 +18,713 @@
     <!-- Material Icons -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <style>
-.carousel-wrapper{
-  display:none;
-}
+        .carousel-wrapper {
+            display: none;
+        }
     </style>
-  </head>
+</head>
 
-  <body class="blue-grey darken-4">
+<body class="blue-grey darken-4">
 
     <!-- Navbar and Header -->
     <nav class="nav-extended nav-full-header z-depth-0 blue-grey darken-3">
-      <div class="nav-background">
-        <img class="active" src="img/header.jpg" alt="control room">
-      </div>
-      <div class="nav-wrapper container">
-        <a href="index.html" class="brand-logo"><img height=120 src='img/ame-at-asu.png'></a>
-      </div>
-
-      <div class="nav-header valign-wrapper">
-        <div class="center">
-          <h1>Digital Culture Showcase</h1>
-          <div class="tagline">Fall 2020</div>
+        <div class="nav-background">
+            <img class="active" src="img/header.jpg" alt="control room">
         </div>
-      </div>
-
-      <!-- Fixed Masonry Filters -->
-      <div class="categories-wrapper">
-        <div class="categories-container">
-          <ul class="categories container">
-            <li class="active"><a href="#all">All</a></li>
-            <li><a href="#interactive">Interactive</a></li>
-            <li><a href="#games">Games</a></li>
-            <li><a href="#other">Other</a></li>
-          </ul>
+        <div class="nav-wrapper container">
+            <a href="index.html" class="brand-logo"><img height=120 src='img/ame-at-asu.png'></a>
         </div>
-      </div>
+
+        <div class="nav-header valign-wrapper">
+            <div class="center">
+                <h1>Digital Culture Showcase</h1>
+                <div class="tagline">Fall 2020</div>
+            </div>
+        </div>
+
+        <!-- Fixed Masonry Filters -->
+        <div class="categories-wrapper">
+            <div class="categories-container">
+                <ul class="categories container">
+                    <li class="active"><a href="#all">All</a></li>
+                    <li><a href="#interactive">Interactive</a></li>
+                    <li><a href="#games">Games</a></li>
+                    <li><a href="#other">Other</a></li>
+                </ul>
+            </div>
+        </div>
     </nav>
     <!-- Gallery -->
     <div id="portfolio" class="section gray">
-      <div class="gallery row">
-        <div class="col l4 m6 s12 gallery-item gallery-expand gallery-filter interactive">
-          <div class="gallery-curve-wrapper">
-            <a class="gallery-cover gray">
-              <img class="responsive-img" src="img/1.png" alt="placeholder">
-            </a>
-            <div class="gallery-body">
-              <div class="title-wrapper">
-                <h3>Baculus</h3>
-                <span class="price">Patrick Hoffman, Josh Staples, Jack Carroll</span>
-              </div>
-              <p class="description">
-              The Baculus is a motion capture device with two internal sensors on either side of the staff. The motion data is sent wirelessly to a Max application, which receives the OSC data sent by the ESP-32 board over UDP. The Baculus is currently being used to control digital synths, but we are working towards integrations with other DAWS and programs, such as Ableton, Logic, and Unity. The sensor being used is a MPU-6050, which captures 6 degrees of freedom: acceleration in X, Y, Z, and gyroscope in X, Y, Z. The data is merged using the sensors on-board digital motion processor, which gives additional data like yaw, pitch, and roll.
-              </p>
+        <div class="gallery row">
+            <div class="col l4 m6 s12 gallery-item gallery-expand gallery-filter interactive">
+                <div class="gallery-curve-wrapper">
+                    <a class="gallery-cover gray">
+                        <img class="responsive-img" src="img/1.png" alt="placeholder">
+                    </a>
+                    <div class="gallery-body">
+                        <div class="title-wrapper">
+                            <h3>Baculus</h3>
+                            <span class="price">Patrick Hoffman, Josh Staples, Jack Carroll</span>
+                        </div>
+                        <p class="description">
+                            The Baculus is a motion capture device with two internal sensors on either side of the staff. The motion data is sent wirelessly to a Max application, which receives the OSC data sent by the ESP-32 board over UDP. The Baculus is currently being used to
+                            control digital synths, but we are working towards integrations with other DAWS and programs, such as Ableton, Logic, and Unity. The sensor being used is a MPU-6050, which captures 6 degrees of freedom: acceleration in X, Y,
+                            Z, and gyroscope in X, Y, Z. The data is merged using the sensors on-board digital motion processor, which gives additional data like yaw, pitch, and roll.
+                        </p>
 
-              <div class="carousel-wrapper">
-                  <div class="carousel">
-                    <a class="carousel-item" href="#one!"><img src="g300x200"></a>
-                    <a class="carousel-item" href="#two!"><img src="g300x200"></a>
-                    <a class="carousel-item" href="#three!"><img src="g300x200"></a>
-                    <a class="carousel-item" href="#four!"><img src="g300x200"></a>
-                    <a class="carousel-item" href="#five!"><img src="g300x200"></a>
-                  </div>
+                        <div class="carousel-wrapper">
+                            <div class="carousel">
+                                <a class="carousel-item" href="#one!"><img src="g300x200"></a>
+                                <a class="carousel-item" href="#two!"><img src="g300x200"></a>
+                                <a class="carousel-item" href="#three!"><img src="g300x200"></a>
+                                <a class="carousel-item" href="#four!"><img src="g300x200"></a>
+                                <a class="carousel-item" href="#five!"><img src="g300x200"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-action">
+                        <a class="btn-floating btn-large waves-effect waves-light" target='_blank' href='https://asu.zoom.us/j/82677815969'><i class="material-icons">videocam</i></a>
+                    </div>
                 </div>
             </div>
-            <div class="gallery-action">
-              <a class="btn-floating btn-large waves-effect waves-light" target='_blank' href='https://asu.zoom.us/j/82677815969'><i class="material-icons">videocam</i></a>
-            </div>
-          </div>
-        </div>
 
-        <div class="col l4 m6 s12 gallery-item gallery-expand gallery-filter games">
-          <div class="gallery-curve-wrapper">
-            <a class="gallery-cover gray">
-              <img class="responsive-img" src="img/2.jpg" alt="placeholder">
-            </a>
-            <div class="gallery-body">
-              <div class="title-wrapper">
-                <h3>Battle Blaster Babies</h3>
-                <span class="price">Anthony Pedroza</span>
-              </div>
-              <p class="description">
-              Battle Blaster Babies is a side-scrolling, fast-action shoot 'em up, with retro graphics, modern-day character progression, and gameplay customization. The core concept of Battle Blaster Babies is creating repayable fun and engaging gameplay through challenging combat that blends long-term, incremental character development and short-term, split-second, reactionary decision-making. I have a passion for video games, and I love the creative challenge of designing gameplay mechanics and systems. My goal for this project is to showcase my skills as a designer, my follow-through and work ethic as a game developer, and the vision I’ve cultivated to transform imagined concepts into realized gameplay.
-              </p>
+            <div class="col l4 m6 s12 gallery-item gallery-expand gallery-filter games">
+                <div class="gallery-curve-wrapper">
+                    <a class="gallery-cover gray">
+                        <img class="responsive-img" src="img/2.jpg" alt="placeholder">
+                    </a>
+                    <div class="gallery-body">
+                        <div class="title-wrapper">
+                            <h3>Battle Blaster Babies</h3>
+                            <span class="price">Anthony Pedroza</span>
+                        </div>
+                        <p class="description">
+                            Battle Blaster Babies is a side-scrolling, fast-action shoot 'em up, with retro graphics, modern-day character progression, and gameplay customization. The core concept of Battle Blaster Babies is creating repayable fun and engaging gameplay through challenging
+                            combat that blends long-term, incremental character development and short-term, split-second, reactionary decision-making. I have a passion for video games, and I love the creative challenge of designing gameplay mechanics
+                            and systems. My goal for this project is to showcase my skills as a designer, my follow-through and work ethic as a game developer, and the vision I’ve cultivated to transform imagined concepts into realized gameplay.
+                        </p>
 
-              <div class="carousel-wrapper">
-                  <div class="carousel">
-                    <a class="carousel-item" href="#one!"><img src="g300x200"></a>
-                    <a class="carousel-item" href="#two!"><img src="g300x200"></a>
-                    <a class="carousel-item" href="#three!"><img src="g300x200"></a>
-                    <a class="carousel-item" href="#four!"><img src="g300x200"></a>
-                    <a class="carousel-item" href="#five!"><img src="g300x200"></a>
-                  </div>
+                        <div class="carousel-wrapper">
+                            <div class="carousel">
+                                <a class="carousel-item" href="#one!"><img src="g300x200"></a>
+                                <a class="carousel-item" href="#two!"><img src="g300x200"></a>
+                                <a class="carousel-item" href="#three!"><img src="g300x200"></a>
+                                <a class="carousel-item" href="#four!"><img src="g300x200"></a>
+                                <a class="carousel-item" href="#five!"><img src="g300x200"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-action">
+                        <a class="btn-floating btn-large waves-effect waves-light" target='_blank' href='https://asu.zoom.us/j/86848532678'><i class="material-icons">videocam</i></a>
+                    </div>
                 </div>
             </div>
-            <div class="gallery-action">
-              <a class="btn-floating btn-large waves-effect waves-light" target='_blank' href='https://asu.zoom.us/j/86848532678'><i class="material-icons">videocam</i></a>
-            </div>
-          </div>
-        </div>
 
-        <div class="col l4 m6 s12 gallery-item gallery-expand gallery-filter interactive">
-          <div class="gallery-curve-wrapper">
-            <a class="gallery-cover gray">
-              <img class="responsive-img" src="img/3.jpg" alt="placeholder">
-            </a>
-            <div class="gallery-body">
-              <div class="title-wrapper">
-                <h3>Disposable Ocean</h3>
-                <span class="price">Michelangelo Cozzo, Jocelyn Gonzalez Rowe, Chantal Savoie, Adrian Sanchez, Tessa Tzineff 
+            <div class="col l4 m6 s12 gallery-item gallery-expand gallery-filter interactive">
+                <div class="gallery-curve-wrapper">
+                    <a class="gallery-cover gray">
+                        <img class="responsive-img" src="img/3.jpg" alt="placeholder">
+                    </a>
+                    <div class="gallery-body">
+                        <div class="title-wrapper">
+                            <h3>Disposable Ocean</h3>
+                            <span class="price">Michelangelo Cozzo, Jocelyn Gonzalez Rowe, Chantal Savoie, Adrian Sanchez, Tessa Tzineff 
 </span>
-              </div>
-              <p class="description">
-              Disposable Ocean is an immersive, multimedia, art installation featuring visuals, projection mapping, art made entirely from recycled materials and other trash, and interactive art. The project aims to get people to understand the scale of the issue of plastic in our oceans and why the individual isn’t to blame like many are led to believe.
-              </p>
+                        </div>
+                        <p class="description">
+                            Disposable Ocean is an immersive, multimedia, art installation featuring visuals, projection mapping, art made entirely from recycled materials and other trash, and interactive art. The project aims to get people to understand the scale of the issue of
+                            plastic in our oceans and why the individual isn’t to blame like many are led to believe.
+                        </p>
 
-              <div class="carousel-wrapper">
-                  <div class="carousel">
-                    <a class="carousel-item" href="#one!"><img src="g300x200"></a>
-                    <a class="carousel-item" href="#two!"><img src="g300x200"></a>
-                    <a class="carousel-item" href="#three!"><img src="g300x200"></a>
-                    <a class="carousel-item" href="#four!"><img src="g300x200"></a>
-                    <a class="carousel-item" href="#five!"><img src="g300x200"></a>
-                  </div>
+                        <div class="carousel-wrapper">
+                            <div class="carousel">
+                                <a class="carousel-item" href="#one!"><img src="g300x200"></a>
+                                <a class="carousel-item" href="#two!"><img src="g300x200"></a>
+                                <a class="carousel-item" href="#three!"><img src="g300x200"></a>
+                                <a class="carousel-item" href="#four!"><img src="g300x200"></a>
+                                <a class="carousel-item" href="#five!"><img src="g300x200"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-action">
+                        <a class="btn-floating btn-large waves-effect waves-light" target='_blank' href='https://asu.zoom.us/j/87232678896'><i class="material-icons blue">videocam</i></a>
+                    </div>
                 </div>
             </div>
-            <div class="gallery-action">
-              <a class="btn-floating btn-large waves-effect waves-light" target='_blank' href='https://asu.zoom.us/j/87232678896'><i class="material-icons blue">videocam</i></a>
-            </div>
-          </div>
-        </div>
 
-        <div class="col l4 m6 s12 gallery-item gallery-expand gallery-filter interactive">
-          <div class="gallery-curve-wrapper">
-            <a class="gallery-cover gray">
-              <img class="responsive-img" src="img/4.jpg" alt="placeholder">
-            </a>
-            <div class="gallery-body">
-              <div class="title-wrapper">
-                <h3>Fantastic Four</h3>
-                <span class="price">Hanshen He, Christian Puebla, Ran Duan, Austin Hendrix</span>
-              </div>
-              <p class="description">
-              The Soundtracker is an adventure music simulator that brings brand-new experiences by combining music composition and classic video game features. Our project allows the player to explore unique environments and compose an original song in the process while also trying to avoid dangerous opponents.
-              </p>
+            <div class="col l4 m6 s12 gallery-item gallery-expand gallery-filter interactive">
+                <div class="gallery-curve-wrapper">
+                    <a class="gallery-cover gray">
+                        <img class="responsive-img" src="img/4.jpg" alt="placeholder">
+                    </a>
+                    <div class="gallery-body">
+                        <div class="title-wrapper">
+                            <h3>Fantastic Four</h3>
+                            <span class="price">Hanshen He, Christian Puebla, Ran Duan, Austin Hendrix</span>
+                        </div>
+                        <p class="description">
+                            The Soundtracker is an adventure music simulator that brings brand-new experiences by combining music composition and classic video game features. Our project allows the player to explore unique environments and compose an original song in the process
+                            while also trying to avoid dangerous opponents.
+                        </p>
 
-              <div class="carousel-wrapper">
-                  <div class="carousel">
-                    <a class="carousel-item" href="#one!"><img src="g300x200"></a>
-                    <a class="carousel-item" href="#two!"><img src="g300x200"></a>
-                    <a class="carousel-item" href="#three!"><img src="g300x200"></a>
-                    <a class="carousel-item" href="#four!"><img src="g300x200"></a>
-                    <a class="carousel-item" href="#five!"><img src="g300x200"></a>
-                  </div>
+                        <div class="carousel-wrapper">
+                            <div class="carousel">
+                                <a class="carousel-item" href="#one!"><img src="g300x200"></a>
+                                <a class="carousel-item" href="#two!"><img src="g300x200"></a>
+                                <a class="carousel-item" href="#three!"><img src="g300x200"></a>
+                                <a class="carousel-item" href="#four!"><img src="g300x200"></a>
+                                <a class="carousel-item" href="#five!"><img src="g300x200"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-action">
+                        <a class="btn-floating btn-large waves-effect waves-light" target='_blank' href='https://asu.zoom.us/j/85219706528'><i class="material-icons">videocam</i></a>
+                    </div>
                 </div>
             </div>
-            <div class="gallery-action">
-              <a class="btn-floating btn-large waves-effect waves-light" target='_blank' href='https://asu.zoom.us/j/85219706528'><i class="material-icons">videocam</i></a>
-            </div>
-          </div>
-        </div>     
-        <div class="col l4 m6 s12 gallery-item gallery-expand gallery-filter interactive">
-          <div class="gallery-curve-wrapper">
-            <a class="gallery-cover gray">
-              <img class="responsive-img" src="img/5.png" alt="placeholder">
-            </a>
-            <div class="gallery-body">
-              <div class="title-wrapper">
-                <h3>Immersive Environments</h3>
-                <span class="price">
+            <div class="col l4 m6 s12 gallery-item gallery-expand gallery-filter interactive">
+                <div class="gallery-curve-wrapper">
+                    <a class="gallery-cover gray">
+                        <img class="responsive-img" src="img/5.png" alt="placeholder">
+                    </a>
+                    <div class="gallery-body">
+                        <div class="title-wrapper">
+                            <h3>Immersive Environments</h3>
+                            <span class="price">
                 Laura Moles, Bryan Fu, Alyssa Figueroa, Karina Brachlow 
                 </span>
-              </div>
-              <p class="description">
-              Immersive Environments is a projection installation putting the viewers in an animated underwater scene reacting based on motion tracking data. Our goal is to ultimately replicate human interaction with nature. Being in a world with restrictions on where we can go and what we can see, we’re creating a room locally that gives this experience to the viewer. They can see fish swimming around them, sunlight moving through the water, and bubbles popping where the viewer is mapped on the projection as if walking on the floor of a coral reef. We’ve created this using MaxMSP and Photoshop. 
-              </p>
+                        </div>
+                        <p class="description">
+                            Immersive Environments is a projection installation putting the viewers in an animated underwater scene reacting based on motion tracking data. Our goal is to ultimately replicate human interaction with nature. Being in a world with restrictions on where
+                            we can go and what we can see, we’re creating a room locally that gives this experience to the viewer. They can see fish swimming around them, sunlight moving through the water, and bubbles popping where the viewer is mapped
+                            on the projection as if walking on the floor of a coral reef. We’ve created this using MaxMSP and Photoshop.
+                        </p>
 
-              <div class="carousel-wrapper">
-                  <div class="carousel">
-                    <a class="carousel-item" href="#one!"><img src="g300x200"></a>
-                    <a class="carousel-item" href="#two!"><img src="g300x200"></a>
-                    <a class="carousel-item" href="#three!"><img src="g300x200"></a>
-                    <a class="carousel-item" href="#four!"><img src="g300x200"></a>
-                    <a class="carousel-item" href="#five!"><img src="g300x200"></a>
-                  </div>
+                        <div class="carousel-wrapper">
+                            <div class="carousel">
+                                <a class="carousel-item" href="#one!"><img src="g300x200"></a>
+                                <a class="carousel-item" href="#two!"><img src="g300x200"></a>
+                                <a class="carousel-item" href="#three!"><img src="g300x200"></a>
+                                <a class="carousel-item" href="#four!"><img src="g300x200"></a>
+                                <a class="carousel-item" href="#five!"><img src="g300x200"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-action">
+                        <a class="btn-floating btn-large waves-effect waves-light" target='_blank' href='https://asu.zoom.us/j/82561728009'><i class="material-icons">videocam</i></a>
+                    </div>
                 </div>
             </div>
-            <div class="gallery-action">
-              <a class="btn-floating btn-large waves-effect waves-light" target='_blank' href='https://asu.zoom.us/j/82561728009'><i class="material-icons">videocam</i></a>
-            </div>
-          </div>
-        </div>        <div class="col l4 m6 s12 gallery-item gallery-expand gallery-filter interactive">
-          <div class="gallery-curve-wrapper">
-            <a class="gallery-cover gray">
-              <img class="responsive-img" src="img/6.jpg" alt="placeholder">
-            </a>
-            <div class="gallery-body">
-              <div class="title-wrapper">
-                <h3>Seeing Double</h3>
-                <span class="price">
+            <div class="col l4 m6 s12 gallery-item gallery-expand gallery-filter interactive">
+                <div class="gallery-curve-wrapper">
+                    <a class="gallery-cover gray">
+                        <img class="responsive-img" src="img/6.jpg" alt="placeholder">
+                    </a>
+                    <div class="gallery-body">
+                        <div class="title-wrapper">
+                            <h3>Seeing Double</h3>
+                            <span class="price">
                   Jaelene Munoz, Ellie Marrs, Rhiannon Nabours 
                 </span>
-              </div>
-              <p class="description">
-              Our project will be an installation of multiple posters that will cover climate change, the Black Lives Matter movement vs Back the Blue, and COVID-19, all of which have been very significant this year. The posters, which will be viewed on a tv screen, will change depending on the angle the audience views the posters from. The posters will have a left view, a right view, and a “step back” view that are accompanied with animation to help the audience become immersed in the moments depicted on the posters.
-              </p>
+                        </div>
+                        <p class="description">
+                            Our project will be an installation of multiple posters that will cover climate change, the Black Lives Matter movement vs Back the Blue, and COVID-19, all of which have been very significant this year. The posters, which will be viewed on a tv screen,
+                            will change depending on the angle the audience views the posters from. The posters will have a left view, a right view, and a “step back” view that are accompanied with animation to help the audience become immersed in the
+                            moments depicted on the posters.
+                        </p>
 
-              <div class="carousel-wrapper">
-                  <div class="carousel">
-                    <a class="carousel-item" href="#one!"><img src="g300x200"></a>
-                    <a class="carousel-item" href="#two!"><img src="g300x200"></a>
-                    <a class="carousel-item" href="#three!"><img src="g300x200"></a>
-                    <a class="carousel-item" href="#four!"><img src="g300x200"></a>
-                    <a class="carousel-item" href="#five!"><img src="g300x200"></a>
-                  </div>
+                        <div class="carousel-wrapper">
+                            <div class="carousel">
+                                <a class="carousel-item" href="#one!"><img src="g300x200"></a>
+                                <a class="carousel-item" href="#two!"><img src="g300x200"></a>
+                                <a class="carousel-item" href="#three!"><img src="g300x200"></a>
+                                <a class="carousel-item" href="#four!"><img src="g300x200"></a>
+                                <a class="carousel-item" href="#five!"><img src="g300x200"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-action">
+                        <a class="btn-floating btn-large waves-effect waves-light" target='_blank' href='https://asu.zoom.us/j/83612437680'><i class="material-icons">videocam</i></a>
+                    </div>
                 </div>
             </div>
-            <div class="gallery-action">
-              <a class="btn-floating btn-large waves-effect waves-light" target='_blank' href='https://asu.zoom.us/j/83612437680'><i class="material-icons">videocam</i></a>
-            </div>
-          </div>
-        </div>        <div class="col l4 m6 s12 gallery-item gallery-expand gallery-filter interactive">
-          <div class="gallery-curve-wrapper">
-            <a class="gallery-cover gray">
-              <img class="responsive-img" src="img/7.png" alt="placeholder">
-            </a>
-            <div class="gallery-body">
-              <div class="title-wrapper">
-                <h3>Virus Story</h3>
-                <span class="price">Jordan Sandoval, Nijah Morgan, Skylar Bloom</span>
-              </div>
-              <p class="description">
-              Virus Story is an interactive video that takes you through the day of a student as he makes decisions about following Covid-19 safety guidelines. The player can choose whether or not to follow a safety guideline and the result of this decision will affect the ending. There are multiple different scene variations depending on what you choose and the ending will vary based on whether you followed guidelines properly or if you decided not to. The purpose of this project is to demonstrate why it is important to treat Covid seriously and the repercussions that can come from not doing so.
-              </p>
+            <div class="col l4 m6 s12 gallery-item gallery-expand gallery-filter interactive">
+                <div class="gallery-curve-wrapper">
+                    <a class="gallery-cover gray">
+                        <img class="responsive-img" src="img/7.png" alt="placeholder">
+                    </a>
+                    <div class="gallery-body">
+                        <div class="title-wrapper">
+                            <h3>Virus Story</h3>
+                            <span class="price">Jordan Sandoval, Nijah Morgan, Skylar Bloom</span>
+                        </div>
+                        <p class="description">
+                            Virus Story is an interactive video that takes you through the day of a student as he makes decisions about following Covid-19 safety guidelines. The player can choose whether or not to follow a safety guideline and the result of this decision will affect
+                            the ending. There are multiple different scene variations depending on what you choose and the ending will vary based on whether you followed guidelines properly or if you decided not to. The purpose of this project is to demonstrate
+                            why it is important to treat Covid seriously and the repercussions that can come from not doing so.
+                        </p>
 
-              <div class="carousel-wrapper">
-                  <div class="carousel">
-                    <a class="carousel-item" href="#one!"><img src="g300x200"></a>
-                    <a class="carousel-item" href="#two!"><img src="g300x200"></a>
-                    <a class="carousel-item" href="#three!"><img src="g300x200"></a>
-                    <a class="carousel-item" href="#four!"><img src="g300x200"></a>
-                    <a class="carousel-item" href="#five!"><img src="g300x200"></a>
-                  </div>
+                        <div class="carousel-wrapper">
+                            <div class="carousel">
+                                <a class="carousel-item" href="#one!"><img src="g300x200"></a>
+                                <a class="carousel-item" href="#two!"><img src="g300x200"></a>
+                                <a class="carousel-item" href="#three!"><img src="g300x200"></a>
+                                <a class="carousel-item" href="#four!"><img src="g300x200"></a>
+                                <a class="carousel-item" href="#five!"><img src="g300x200"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-action">
+                        <a class="btn-floating btn-large waves-effect waves-light" target='_blank' href='https://asu.zoom.us/j/87817190978'><i class="material-icons">videocam</i></a>
+                    </div>
                 </div>
             </div>
-            <div class="gallery-action">
-              <a class="btn-floating btn-large waves-effect waves-light" target='_blank' href='https://asu.zoom.us/j/87817190978'><i class="material-icons">videocam</i></a>
-            </div>
-          </div>
-        </div>        <div class="col l4 m6 s12 gallery-item gallery-expand gallery-filter interactive">
-          <div class="gallery-curve-wrapper">
-            <a class="gallery-cover gray">
-              <img class="responsive-img" src="img/8.png" alt="placeholder">
-            </a>
-            <div class="gallery-body">
-              <div class="title-wrapper">
-                <h3>Livid</h3>
-                <span class="price">James Bone, Demos Fotias, Kurtis Hohman, Tony Ma, Adrian Sanchez</span>
-              </div>
-              <p class="description">
-              Livid is an action platformer looking to explore how we as designers can use the player's emotions during game play and turn dynamic gaming onto its head. Livid has been designed to “punish” the player if they are getting frustrated by changing the difficulty up when the player starts to use their frustration. If the player can notice this they will have time to readjust their actions and can possibly take a safer route or use some of the game mechanics to their advantage to cool down.
-              </p>
+            <div class="col l4 m6 s12 gallery-item gallery-expand gallery-filter interactive">
+                <div class="gallery-curve-wrapper">
+                    <a class="gallery-cover gray">
+                        <img class="responsive-img" src="img/8.png" alt="placeholder">
+                    </a>
+                    <div class="gallery-body">
+                        <div class="title-wrapper">
+                            <h3>Livid</h3>
+                            <span class="price">James Bone, Demos Fotias, Kurtis Hohman, Tony Ma, Adrian Sanchez</span>
+                        </div>
+                        <p class="description">
+                            Livid is an action platformer looking to explore how we as designers can use the player's emotions during game play and turn dynamic gaming onto its head. Livid has been designed to “punish” the player if they are getting frustrated by changing the difficulty
+                            up when the player starts to use their frustration. If the player can notice this they will have time to readjust their actions and can possibly take a safer route or use some of the game mechanics to their advantage to cool
+                            down.
+                        </p>
 
-              <div class="carousel-wrapper">
-                  <div class="carousel">
-                    <a class="carousel-item" href="#one!"><img src="g300x200"></a>
-                    <a class="carousel-item" href="#two!"><img src="g300x200"></a>
-                    <a class="carousel-item" href="#three!"><img src="g300x200"></a>
-                    <a class="carousel-item" href="#four!"><img src="g300x200"></a>
-                    <a class="carousel-item" href="#five!"><img src="g300x200"></a>
-                  </div>
+                        <div class="carousel-wrapper">
+                            <div class="carousel">
+                                <a class="carousel-item" href="#one!"><img src="g300x200"></a>
+                                <a class="carousel-item" href="#two!"><img src="g300x200"></a>
+                                <a class="carousel-item" href="#three!"><img src="g300x200"></a>
+                                <a class="carousel-item" href="#four!"><img src="g300x200"></a>
+                                <a class="carousel-item" href="#five!"><img src="g300x200"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-action">
+                        <a class="btn-floating btn-large waves-effect waves-light" target='_blank' href='https://asu.zoom.us/j/85734522040'><i class="material-icons">videocam</i></a>
+                    </div>
                 </div>
             </div>
-            <div class="gallery-action">
-              <a class="btn-floating btn-large waves-effect waves-light" target='_blank' href='https://asu.zoom.us/j/85734522040'><i class="material-icons">videocam</i></a>
-            </div>
-          </div>
-        </div>        <div class="col l4 m6 s12 gallery-item gallery-expand gallery-filter other">
-          <div class="gallery-curve-wrapper">
-            <a class="gallery-cover gray">
-              <img class="responsive-img" src="img/9.png" alt="placeholder">
-            </a>
-            <div class="gallery-body">
-              <div class="title-wrapper">
-                <h3>&#35;LOGGED-IN</h3>
-                <span class="price">Taliya Chhouk, Amelia Edwards, Jordan Machuca, Micah Padre Juan, Aileen Villarreal</span>
-              </div>
-              <p class="description">
-              &#35;LOGGED-IN is a five episode web series about the importance of media literacy and the downfalls of being media illiterate in our modern world. The five episodes, #InTheDoghouse, #DidntEvenNotice, #IsThisYou, #BuyingHappiness, and #BehindTheMask, highlight different ways in which people interact with social media and how they can fall prey to misinformation, how their pasts can come back to haunt them, and how not everyone is who they claim to be. Accompanying the web series is a website which provides answers to the questions that are raised while watching the episodes. The aim of the web series is to entertain and spark interest in the topic of media literacy, while the aim of the website is to educate and inform users once their interest has been spiked.
-              </p>
-              <p class="description">
-                <a href='https://www.youtube.com/channel/UCtGkybN6l2NrkNh4M-4V3Lg/about?view_as=subscriber' target='_blank'> YouTube Channel (Magic Login)</a>
-              </p>
-              <div class="carousel-wrapper">
-                  <div class="carousel">
-                    <a class="carousel-item" href="#one!"><img src="g300x200"></a>
-                    <a class="carousel-item" href="#two!"><img src="g300x200"></a>
-                    <a class="carousel-item" href="#three!"><img src="g300x200"></a>
-                    <a class="carousel-item" href="#four!"><img src="g300x200"></a>
-                    <a class="carousel-item" href="#five!"><img src="g300x200"></a>
-                  </div>
+            <div class="col l4 m6 s12 gallery-item gallery-expand gallery-filter other">
+                <div class="gallery-curve-wrapper">
+                    <a class="gallery-cover gray">
+                        <img class="responsive-img" src="img/9.png" alt="placeholder">
+                    </a>
+                    <div class="gallery-body">
+                        <div class="title-wrapper">
+                            <h3>&#35;LOGGED-IN</h3>
+                            <span class="price">Taliya Chhouk, Amelia Edwards, Jordan Machuca, Micah Padre Juan, Aileen Villarreal</span>
+                        </div>
+                        <p class="description">
+                            &#35;LOGGED-IN is a five episode web series about the importance of media literacy and the downfalls of being media illiterate in our modern world. The five episodes, #InTheDoghouse, #DidntEvenNotice, #IsThisYou, #BuyingHappiness, and #BehindTheMask,
+                            highlight different ways in which people interact with social media and how they can fall prey to misinformation, how their pasts can come back to haunt them, and how not everyone is who they claim to be. Accompanying the web
+                            series is a website which provides answers to the questions that are raised while watching the episodes. The aim of the web series is to entertain and spark interest in the topic of media literacy, while the aim of the website
+                            is to educate and inform users once their interest has been spiked.
+                        </p>
+                        <p class="description">
+                            <a href='https://www.youtube.com/channel/UCtGkybN6l2NrkNh4M-4V3Lg/about?view_as=subscriber' target='_blank'> YouTube Channel (Magic Login)</a>
+                        </p>
+                        <div class="carousel-wrapper">
+                            <div class="carousel">
+                                <a class="carousel-item" href="#one!"><img src="g300x200"></a>
+                                <a class="carousel-item" href="#two!"><img src="g300x200"></a>
+                                <a class="carousel-item" href="#three!"><img src="g300x200"></a>
+                                <a class="carousel-item" href="#four!"><img src="g300x200"></a>
+                                <a class="carousel-item" href="#five!"><img src="g300x200"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-action">
+                        <a class="btn-floating btn-large waves-effect waves-light" target='_blank' href='https://asu.zoom.us/j/87363706971'><i class="material-icons">videocam</i></a>
+                    </div>
                 </div>
             </div>
-            <div class="gallery-action">
-              <a class="btn-floating btn-large waves-effect waves-light" target='_blank' href='https://asu.zoom.us/j/87363706971'><i class="material-icons">videocam</i></a>
-            </div>
-          </div>
-        </div>        <div class="col l4 m6 s12 gallery-item gallery-expand gallery-filter other">
-          <div class="gallery-curve-wrapper">
-            <a class="gallery-cover gray">
-              <img class="responsive-img" src="img/10.png" alt="placeholder">
-            </a>
-            <div class="gallery-body">
-              <div class="title-wrapper">
-                <h3>Monocle</h3>
-                <span class="price">Quinton Bobbitt, Paul Ceraulo, Edward Chavez, Justin Hertzberg, LJ McKenzie</span>
-              </div>
-              <p class="description">
-              Monocle is a task management methodology and web application which aims to bring individual accountability to light in group projects. Often in capstone-like project settings where there are no project managers, the workload is voluntarily assigned and completed within varying time frames. This makes it difficult to ensure that each member is accountable for the work they have volunteered for. Monocle provides a system that uses on-the-fly voluntary task assignments, progress tracking, and a quality assurance review process. The aim is to track and visualize the project workflow in a fair and productive way. We hope that this leads to a smoother group project experience for academia, work, or otherwise.
-              </p>
+            <div class="col l4 m6 s12 gallery-item gallery-expand gallery-filter other">
+                <div class="gallery-curve-wrapper">
+                    <a class="gallery-cover gray">
+                        <img class="responsive-img" src="img/10.png" alt="placeholder">
+                    </a>
+                    <div class="gallery-body">
+                        <div class="title-wrapper">
+                            <h3>Monocle</h3>
+                            <span class="price">Quinton Bobbitt, Paul Ceraulo, Edward Chavez, Justin Hertzberg, LJ McKenzie</span>
+                        </div>
+                        <p class="description">
+                            Monocle is a task management methodology and web application which aims to bring individual accountability to light in group projects. Often in capstone-like project settings where there are no project managers, the workload is voluntarily assigned and
+                            completed within varying time frames. This makes it difficult to ensure that each member is accountable for the work they have volunteered for. Monocle provides a system that uses on-the-fly voluntary task assignments, progress
+                            tracking, and a quality assurance review process. The aim is to track and visualize the project workflow in a fair and productive way. We hope that this leads to a smoother group project experience for academia, work, or otherwise.
+                        </p>
 
-              <div class="carousel-wrapper">
-                  <div class="carousel">
-                    <a class="carousel-item" href="#one!"><img src="g300x200"></a>
-                    <a class="carousel-item" href="#two!"><img src="g300x200"></a>
-                    <a class="carousel-item" href="#three!"><img src="g300x200"></a>
-                    <a class="carousel-item" href="#four!"><img src="g300x200"></a>
-                    <a class="carousel-item" href="#five!"><img src="g300x200"></a>
-                  </div>
+                        <div class="carousel-wrapper">
+                            <div class="carousel">
+                                <a class="carousel-item" href="#one!"><img src="g300x200"></a>
+                                <a class="carousel-item" href="#two!"><img src="g300x200"></a>
+                                <a class="carousel-item" href="#three!"><img src="g300x200"></a>
+                                <a class="carousel-item" href="#four!"><img src="g300x200"></a>
+                                <a class="carousel-item" href="#five!"><img src="g300x200"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-action">
+                        <a class="btn-floating btn-large waves-effect waves-light" target='_blank' href='https://asu.zoom.us/j/87407071315'><i class="material-icons">videocam</i></a>
+                    </div>
                 </div>
             </div>
-            <div class="gallery-action">
-              <a class="btn-floating btn-large waves-effect waves-light" target='_blank' href='https://asu.zoom.us/j/87407071315'><i class="material-icons">videocam</i></a>
+
+            <div class="col l4 m6 s12 gallery-item gallery-expand gallery-filter other">
+                <div class="gallery-curve-wrapper">
+                    <a class="gallery-cover gray">
+                        <img class="responsive-img" src="img/11.png" alt="placeholder">
+                    </a>
+                    <div class="gallery-body">
+                        <div class="title-wrapper">
+                            <h3>Paradox of Choice</h3>
+                            <span class="price">Albert Bang, Christian Cuciniello, Thomas Richardson, Anastasia Sanchez</span>
+                        </div>
+                        <p class="description">
+
+                        </p>
+
+                        <div class="carousel-wrapper">
+                            <div class="carousel">
+                                <a class="carousel-item" href="#one!"><img src="g300x200"></a>
+                                <a class="carousel-item" href="#two!"><img src="g300x200"></a>
+                                <a class="carousel-item" href="#three!"><img src="g300x200"></a>
+                                <a class="carousel-item" href="#four!"><img src="g300x200"></a>
+                                <a class="carousel-item" href="#five!"><img src="g300x200"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-action">
+                        <a class="btn-floating btn-large waves-effect waves-light" target='_blank' href='https://asu.zoom.us/j/82200848569'><i class="material-icons">videocam</i></a>
+                    </div>
+                </div>
             </div>
-          </div>
+            <div class="col l4 m6 s12 gallery-item gallery-expand gallery-filter interactive">
+                <div class="gallery-curve-wrapper">
+                    <a class="gallery-cover gray">
+                        <img src="img/12.png" alt="placeholder">
+                    </a>
+                    <div class="gallery-body">
+                        <div class="title-wrapper">
+                            <h3>Lux Tabulum</h3>
+                            <span class="price">Caleb Kang, Will Lorant, Anthony Santos, Timothy Stevens, Terry Wilson</span>
+                        </div>
+                        <p class="description">
+                            Our project is a 24 note PVC Pipe instrument with reactive lights. The note range is from C2 (65.41 hz) to B3 (246.94 hz). This classic DIY instrument is augmented with performance enhancing lights. A 10 LED light strip is placed onto the top of each
+                            tube. When a tube is hit the corresponding LED strip lights up.
+                        </p>
+
+                        <div class="carousel-wrapper">
+                            <div class="carousel">
+                                <a class="carousel-item" href="#one!"><img src="g300x200"></a>
+                                <a class="carousel-item" href="#two!"><img src="g300x200"></a>
+                                <a class="carousel-item" href="#three!"><img src="g300x200"></a>
+                                <a class="carousel-item" href="#four!"><img src="g300x200"></a>
+                                <a class="carousel-item" href="#five!"><img src="g300x200"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-action">
+                        <a class="btn-floating btn-large waves-effect waves-light" target='_blank' href='https://asu.zoom.us/j/81561957932'><i class="material-icons">videocam</i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col l4 m6 s12 gallery-item gallery-expand gallery-filter other">
+                <div class="gallery-curve-wrapper">
+                    <a class="gallery-cover gray">
+                        <img class="responsive-img" src="img/13.png" alt="placeholder">
+                    </a>
+                    <div class="gallery-body">
+                        <div class="title-wrapper">
+                            <h3>Self-Progression</h3>
+                            <span class="price">Ambar Aguirre, Matthew Goldman, Benjamin Talarczyk</span>
+                        </div>
+                        <p class="description">
+                            Self - Progression is a website that will be used as a mental health tool. Self - Progres- sion’s main concept is a daily journal that allows the user to identify their goals for the day and reflect on what they have done at the end of the night. At the
+                            end of ev- ery week, all of the user’s journal entries for the week will be put into a timeline, called Self-Reflection Sunday. Self-Reflection Sunday is designed to allow the user to identify positive and negative patterns
+                            that have an impact on their mental health. The site also includes a Health and Food page that include exercises and recipes that will help im- prove one’s mental health. The site also includes a Contact and Resources. The
+                            Resourc- es page has a list of all national resources if a higher level of help is needed.
+                        </p>
+
+                        <div class="carousel-wrapper">
+                            <div class="carousel">
+                                <a class="carousel-item" href="#one!"><img src="g300x200"></a>
+                                <a class="carousel-item" href="#two!"><img src="g300x200"></a>
+                                <a class="carousel-item" href="#three!"><img src="g300x200"></a>
+                                <a class="carousel-item" href="#four!"><img src="g300x200"></a>
+                                <a class="carousel-item" href="#five!"><img src="g300x200"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-action">
+                        <a class="btn-floating btn-large waves-effect waves-light" target="_blank" href='https://asu.zoom.us/j/89515690136'><i class="material-icons red">videocam</i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col l4 m6 s12 gallery-item gallery-expand gallery-filter games">
+                <div class="gallery-curve-wrapper">
+                    <a class="gallery-cover gray">
+                        <img src="img/14.png" alt="placeholder">
+                    </a>
+                    <div class="gallery-body">
+                        <div class="title-wrapper">
+                            <h3>Wake Up</h3>
+                            <span class="price">Zachary Bruggeman, Kevin Garcia, Perla Martinez Lugo</span>
+                        </div>
+                        <p class="description">
+                            “Wake Up” is a 2D platforming game that explores morality through the lens of the 7 Deadly Sins within a modern context. This means using current world events as the setting or inspiration for each of the game’s levels. The game then aims to show which
+                            of the 7 Deadly Sins are present in these different situations. Our story follows the player character, Isaac, who awakes in what seems to be today’s world. Little does he know; he is in fact dead. He soon comes to realize
+                            this bleak reality and sets off on a quest to free his soul from the limbo he finds himself in. Our team is striving to innovate in how we can convey a story’s themes through game mechanics, art direction, sound design, and
+                            more.
+                        </p>
+
+                        <div class="carousel-wrapper">
+                            <div class="carousel">
+                                <a class="carousel-item" href="#one!"><img src="g300x200"></a>
+                                <a class="carousel-item" href="#two!"><img src="g300x200"></a>
+                                <a class="carousel-item" href="#three!"><img src="g300x200"></a>
+                                <a class="carousel-item" href="#four!"><img src="g300x200"></a>
+                                <a class="carousel-item" href="#five!"><img src="g300x200"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-action">
+                        <a class="btn-floating btn-large waves-effect waves-light" target='_blank' href='https://asu.zoom.us/j/86480519294'><i class="material-icons">videocam</i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col l4 m6 s12 gallery-item gallery-expand gallery-filter interactive">
+                <div class="gallery-curve-wrapper">
+                    <a class="gallery-cover gray">
+                        <img src="img/15.png" alt="placeholder">
+                    </a>
+                    <div class="gallery-body">
+                        <div class="title-wrapper">
+                            <h3>Sit With Me</h3>
+                            <span class="price">AJ Allison, Rigo Berber-Arias, Gabriella Rich</span>
+                        </div>
+                        <p class="description">
+                            Two benches 6 ft apart that interact with each other. This is achieved through analog communication through microphones, indirect interactions triggered by Arduino sensors, audio responsive LEDs, and the installation of benches in two different locations.
+                            Our hopes with this project is to increase human interaction while maintaining social distancing in a post COVID-19 world. Something as simple as teaching a music lesson has been difficult, especially with a latency using softwares
+                            like video chat. We feel like we might have a solution for this issue that can help with still developing connections while being safe and 6 ft apart.
+                        </p>
+
+                        <div class="carousel-wrapper">
+                            <div class="carousel">
+                                <a class="carousel-item" href="#one!"><img src="g300x200"></a>
+                                <a class="carousel-item" href="#two!"><img src="g300x200"></a>
+                                <a class="carousel-item" href="#three!"><img src="g300x200"></a>
+                                <a class="carousel-item" href="#four!"><img src="g300x200"></a>
+                                <a class="carousel-item" href="#five!"><img src="g300x200"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-action">
+                        <a class="btn-floating btn-large waves-effect waves-light" target='_blank' href='https://asu.zoom.us/j/89344377365'><i class="material-icons">videocam</i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col l4 m6 s12 gallery-item gallery-expand gallery-filter other">
+                <div class="gallery-curve-wrapper">
+                    <a class="gallery-cover gray">
+                        <img src="img/16.png" alt="placeholder">
+                    </a>
+                    <div class="gallery-body">
+                        <div class="title-wrapper">
+                            <h3>Stress Reliever App</h3>
+                            <span class="price">Tarun Anandanpillai, Rahulrajan Karthikeyan</span>
+                        </div>
+                        <p class="description">
+                            In the present world of the 21st century where the amount of stress people take in has reached a high. With COVID-19 striking the earth along with the usual stress that has been persistent unless explicitly removed. Therefore, we have found a way to help
+                            with the stress on a daily basis through our stress reliever app. Through this app you will be able to monitor your stress levels as well as reduce the levels through solutions provided by our application.
+                        </p>
+
+                        <div class="carousel-wrapper">
+                            <div class="carousel">
+                                <a class="carousel-item" href="#one!"><img src="g300x200"></a>
+                                <a class="carousel-item" href="#two!"><img src="g300x200"></a>
+                                <a class="carousel-item" href="#three!"><img src="g300x200"></a>
+                                <a class="carousel-item" href="#four!"><img src="g300x200"></a>
+                                <a class="carousel-item" href="#five!"><img src="g300x200"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-action">
+                        <a class="btn-floating btn-large waves-effect waves-light" target='_blank' href='https://asu.zoom.us/j/88405047722'><i class="material-icons">videocam</i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col l4 m6 s12 gallery-item gallery-expand gallery-filter games">
+                <div class="gallery-curve-wrapper">
+                    <a class="gallery-cover gray">
+                        <img src="img/17.png" alt="placeholder">
+                    </a>
+                    <div class="gallery-body">
+                        <div class="title-wrapper">
+                            <h3>Take a Walk</h3>
+                            <span class="price">Clayton Harris, Jacob Janezic, Michael Kotnik, Parker Marano</span>
+                        </div>
+
+                        <p class="description">
+                            Take A Walk is a 2D top-down rpg adventure game where you play as our character Autumn and aid in her quest to survive in a new, unfamiliar environment and solve the mystery of her memory loss and the strangely familiar pages she finds along the way.
+                            Each page contains angsty clues as to who has written them and it is Autumn’s quest to find the owner of these pages and help them. Our core concept is to make a game that helps people struggling with anxiety feel less alone
+                            and feel more in control of their emotions. Our game includes simple game mechanics that will help the mental health of both the main character and the player. Autumn finds herself stranded in a desert and must make her way
+                            through the desert, a forest, and a mountain passage to get home. Along the way, Autumn meets some silly characters which do guide her in her journey, but mostly just need Autumn’s help.
+                        </p>
+
+                        <div class="carousel-wrapper">
+                            <div class="carousel">
+                                <a class="carousel-item" href="#one!"><img src="g300x200"></a>
+                                <a class="carousel-item" href="#two!"><img src="g300x200"></a>
+                                <a class="carousel-item" href="#three!"><img src="g300x200"></a>
+                                <a class="carousel-item" href="#four!"><img src="g300x200"></a>
+                                <a class="carousel-item" href="#five!"><img src="g300x200"></a>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="gallery-action">
+                        <a class="btn-floating btn-large waves-effect waves-light" target='_blank' href='https://asu.zoom.us/j/89782312869'><i class="material-icons">videocam</i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col l4 m6 s12 gallery-item gallery-expand gallery-filter games">
+                <div class="gallery-curve-wrapper">
+                    <a class="gallery-cover gray">
+                        <img class="responsive-img" src="img/18.png" alt="placeholder">
+                    </a>
+                    <div class="gallery-body">
+                        <div class="title-wrapper">
+                            <h3>The Hunt</h3>
+                            <span class="price">Tyler Adame, Maxx Lewis, Yuanbo Li</span>
+                        </div>
+                        <p class="description">
+
+                        </p>
+
+                        <div class="carousel-wrapper">
+                            <div class="carousel">
+                                <a class="carousel-item" href="#one!"><img src="g300x200"></a>
+                                <a class="carousel-item" href="#two!"><img src="g300x200"></a>
+                                <a class="carousel-item" href="#three!"><img src="g300x200"></a>
+                                <a class="carousel-item" href="#four!"><img src="g300x200"></a>
+                                <a class="carousel-item" href="#five!"><img src="g300x200"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-action">
+                        <a class="btn-floating btn-large waves-effect waves-light" target='_blank' href='https://asu.zoom.us/j/88588587553'><i class="material-icons black">videocam</i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col l4 m6 s12 gallery-item gallery-expand gallery-filter other">
+                <div class="gallery-curve-wrapper">
+                    <a class="gallery-cover gray">
+                        <img class="responsive-img" src="img/19.png" alt="placeholder">
+                    </a>
+                    <div class="gallery-body">
+                        <div class="title-wrapper">
+                            <h3>Innovation (Mini Doc)</h3>
+                            <span class="price">Collin Brown, Andrew Hershauer, Baylee Hough</span>
+                        </div>
+                        <p class="description">
+                        </p>
+
+                        <div class="carousel-wrapper">
+                            <div class="carousel">
+                                <a class="carousel-item" href="#one!"><img src="g300x200"></a>
+                                <a class="carousel-item" href="#two!"><img src="g300x200"></a>
+                                <a class="carousel-item" href="#three!"><img src="g300x200"></a>
+                                <a class="carousel-item" href="#four!"><img src="g300x200"></a>
+                                <a class="carousel-item" href="#five!"><img src="g300x200"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-action">
+                        <a class="btn-floating btn-large waves-effect waves-light" target='_blank' href='https://asu.zoom.us/j/87265290002'><i class="material-icons">videocam</i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col l4 m6 s12 gallery-item gallery-expand gallery-filter interactive">
+                <div class="gallery-curve-wrapper">
+                    <a class="gallery-cover gray">
+                        <img class="responsive-img" src="img/20.png" alt="placeholder">
+                    </a>
+                    <div class="gallery-body">
+                        <div class="title-wrapper">
+                            <h3>Sen’tree’ent</h3>
+                            <span class="price">Khanh Thi Nguyen, Anthony Airasolo, Meghan Beaudet</span>
+
+                        </div>
+                        <p class="description">
+                            Sen'tree'nt is an effort at recreating a tree that is sentient. It is a tree sculpture with leaves that alternate colors when it meets sunlight or when a user interacts with it (by coming in close contact and touching). We are fascinated by trees and
+                            want to create Sen'tree'nt to visualize the relationship between tree and sun, its life source, and help others see how captivating, fascinating and alive trees can be
+                        </p>
+
+                        <div class="carousel-wrapper">
+                            <div class="carousel">
+                                <a class="carousel-item" href="#one!"><img src="g300x200"></a>
+                                <a class="carousel-item" href="#two!"><img src="g300x200"></a>
+                                <a class="carousel-item" href="#three!"><img src="g300x200"></a>
+                                <a class="carousel-item" href="#four!"><img src="g300x200"></a>
+                                <a class="carousel-item" href="#five!"><img src="g300x200"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-action">
+                        <a class="btn-floating btn-large waves-effect waves-light" target='_blank' href='https://asu.zoom.us/j/81267686241'><i class="material-icons">videocam</i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col l4 m6 s12 gallery-item gallery-expand gallery-filter other">
+                <div class="gallery-curve-wrapper">
+                    <a class="gallery-cover gray">
+                        <img class="responsive-img" src="img/21.png" alt="placeholder">
+                    </a>
+                    <div class="gallery-body">
+                        <div class="title-wrapper">
+                            <h3>Unreal IRL</h3>
+                            <span class="price">Neiko Garcia, Daniel Kim, Hector Solis, Alex Stockman</span>
+                        </div>
+                        <p class="description">
+                            Original Project: Original idea was to have parallax motion between a virtual camera and IRL camera with a 3D scene that was then imported into unity that would match up with the camera motions and lighting environment of person being recorded in front
+                            of a green screen. To have a more atmospheric/interactive background instead of a still image.<br> Re-structed Project part 1 (Neiko and Hector): Since we were not able to get the motion between
+                            virtual camera and IRL camera, we will essentially do the project as if we did, basically faking the real time camera motion. We will do that by having similar lighting environments and camera motion and then editing them with
+                            a match cut approach. We will still be utilizing the 3D scene, but nothing will be done in real time. We will show how the project was originally intended to be done (real time camera motion) and why (the why being to show
+                            correspondence and being used in programs such as Zoom, OBS, etc.).<br> Re-structed Project part 2 (Daniel and Alex): Used blob tracking and worked in correspondence to track the position of a camera on a slider. Using scale
+                            and frame objects, I was able to green screen two different images together at the same corresponding angle.
+                        </p>
+
+                        <div class="carousel-wrapper">
+                            <div class="carousel">
+                                <a class="carousel-item" href="#one!"><img src="g300x200"></a>
+                                <a class="carousel-item" href="#two!"><img src="g300x200"></a>
+                                <a class="carousel-item" href="#three!"><img src="g300x200"></a>
+                                <a class="carousel-item" href="#four!"><img src="g300x200"></a>
+                                <a class="carousel-item" href="#five!"><img src="g300x200"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-action">
+                        <a class="btn-floating btn-large waves-effect waves-light" target='_blank' href='https://asu.zoom.us/j/88521595812'><i class="material-icons">videocam</i></a>
+                    </div>
+                </div>
+            </div>
+
+
         </div>
 
-        <div class="col l4 m6 s12 gallery-item gallery-expand gallery-filter other">
-          <div class="gallery-curve-wrapper">
-            <a class="gallery-cover gray">
-              <img class="responsive-img" src="img/11.png" alt="placeholder">
-            </a>
-            <div class="gallery-body">
-              <div class="title-wrapper">
-                <h3>Paradox of Choice</h3>
-                <span class="price">Albert Bang, Christian Cuciniello, Thomas Richardson, Anastasia Sanchez</span>
-              </div>
-              <p class="description">
-              
-              </p>
-
-              <div class="carousel-wrapper">
-                  <div class="carousel">
-                    <a class="carousel-item" href="#one!"><img src="g300x200"></a>
-                    <a class="carousel-item" href="#two!"><img src="g300x200"></a>
-                    <a class="carousel-item" href="#three!"><img src="g300x200"></a>
-                    <a class="carousel-item" href="#four!"><img src="g300x200"></a>
-                    <a class="carousel-item" href="#five!"><img src="g300x200"></a>
-                  </div>
-                </div>
-            </div>
-            <div class="gallery-action">
-              <a class="btn-floating btn-large waves-effect waves-light" target='_blank' href='https://asu.zoom.us/j/82200848569'><i class="material-icons">videocam</i></a>
-            </div>
-          </div>
-        </div>
-        <div class="col l4 m6 s12 gallery-item gallery-expand gallery-filter interactive">
-          <div class="gallery-curve-wrapper">
-            <a class="gallery-cover gray">
-              <img src="img/12.png" alt="placeholder">
-            </a>
-            <div class="gallery-body">
-              <div class="title-wrapper">
-                <h3>Lux Tabulum</h3>
-                <span class="price">Caleb Kang, Will Lorant, Anthony Santos, Timothy Stevens, Terry Wilson</span>
-              </div>
-              <p class="description">
-Our project is a 24 note PVC Pipe instrument with reactive lights. The note range is from C2 (65.41 hz) to B3 (246.94 hz). This classic DIY instrument is augmented with performance enhancing lights. A 10 LED light strip is placed onto the top of each tube. When a tube is hit the corresponding LED strip lights up.
-              </p>
-
-              <div class="carousel-wrapper">
-                  <div class="carousel">
-                    <a class="carousel-item" href="#one!"><img src="g300x200"></a>
-                    <a class="carousel-item" href="#two!"><img src="g300x200"></a>
-                    <a class="carousel-item" href="#three!"><img src="g300x200"></a>
-                    <a class="carousel-item" href="#four!"><img src="g300x200"></a>
-                    <a class="carousel-item" href="#five!"><img src="g300x200"></a>
-                  </div>
-                </div>
-            </div>
-            <div class="gallery-action">
-              <a class="btn-floating btn-large waves-effect waves-light" target='_blank' href='https://asu.zoom.us/j/81561957932'><i class="material-icons">videocam</i></a>
-            </div>
-          </div>
-        </div>
-        <div class="col l4 m6 s12 gallery-item gallery-expand gallery-filter other">
-          <div class="gallery-curve-wrapper">
-            <a class="gallery-cover gray">
-              <img class="responsive-img" src="img/13.png" alt="placeholder">
-            </a>
-            <div class="gallery-body">
-              <div class="title-wrapper">
-                <h3>Self-Progression</h3>
-                <span class="price">Ambar Aguirre, Matthew Goldman, Benjamin Talarczyk</span>
-              </div>
-              <p class="description">
-              Self - Progression is a website that will be used as a mental health tool. Self - Progres- sion’s main concept is a daily journal that allows the user to identify their goals for
-the day and reflect on what they have done at the end of the night. At the end of ev-
-ery week, all of the user’s journal entries for the week will be put into a timeline, called Self-Reflection Sunday. Self-Reflection Sunday is designed to allow the user to identify positive and negative patterns that have an impact on their mental health. The site also includes a Health and Food page that include exercises and recipes that will help im- prove one’s mental health. The site also includes a Contact and Resources. The Resourc- es page has a list of all national resources if a higher level of help is needed.
-              </p>
-
-              <div class="carousel-wrapper">
-                  <div class="carousel">
-                    <a class="carousel-item" href="#one!"><img src="g300x200"></a>
-                    <a class="carousel-item" href="#two!"><img src="g300x200"></a>
-                    <a class="carousel-item" href="#three!"><img src="g300x200"></a>
-                    <a class="carousel-item" href="#four!"><img src="g300x200"></a>
-                    <a class="carousel-item" href="#five!"><img src="g300x200"></a>
-                  </div>
-                </div>
-            </div>
-            <div class="gallery-action">
-              <a class="btn-floating btn-large waves-effect waves-light" target="_blank" href='https://asu.zoom.us/j/89515690136'><i class="material-icons red">videocam</i></a>
-            </div>
-          </div>
-        </div>
-        <div class="col l4 m6 s12 gallery-item gallery-expand gallery-filter games">
-          <div class="gallery-curve-wrapper">
-            <a class="gallery-cover gray">
-              <img src="img/14.png" alt="placeholder">
-            </a>
-            <div class="gallery-body">
-              <div class="title-wrapper">
-                <h3>Wake Up</h3>
-                <span class="price">Zachary Bruggeman, Kevin Garcia, Perla Martinez Lugo</span>
-              </div>
-              <p class="description">
-              “Wake Up” is a 2D platforming game that explores morality through the lens of the 7 Deadly Sins within a modern context. This means using current world events as the setting or inspiration for each of the game’s levels. The game then aims to show which of the 7 Deadly Sins are present in these different situations. Our story follows the player character, Isaac, who awakes in what seems to be today’s world. Little does he know; he is in fact dead. He soon comes to realize this bleak reality and sets off on a quest to free his soul from the limbo he finds himself in. Our team is striving to innovate in how we can convey a story’s themes through game mechanics, art direction, sound design, and more.
-              </p>
-
-              <div class="carousel-wrapper">
-                  <div class="carousel">
-                    <a class="carousel-item" href="#one!"><img src="g300x200"></a>
-                    <a class="carousel-item" href="#two!"><img src="g300x200"></a>
-                    <a class="carousel-item" href="#three!"><img src="g300x200"></a>
-                    <a class="carousel-item" href="#four!"><img src="g300x200"></a>
-                    <a class="carousel-item" href="#five!"><img src="g300x200"></a>
-                  </div>
-                </div>
-            </div>
-            <div class="gallery-action">
-              <a class="btn-floating btn-large waves-effect waves-light" target='_blank' href='https://asu.zoom.us/j/86480519294'><i class="material-icons">videocam</i></a>
-            </div>
-          </div>
-        </div>
-        <div class="col l4 m6 s12 gallery-item gallery-expand gallery-filter interactive">
-          <div class="gallery-curve-wrapper">
-            <a class="gallery-cover gray">
-              <img src="img/15.png" alt="placeholder">
-            </a>
-            <div class="gallery-body">
-              <div class="title-wrapper">
-                <h3>Sit With Me</h3>
-                <span class="price">AJ Allison, Rigo Berber-Arias, Gabriella Rich</span>
-              </div>
-              <p class="description">
-              Two benches 6 ft apart that interact with each other. This is achieved through analog communication through microphones, indirect interactions triggered by Arduino sensors, audio responsive LEDs, and the installation of benches in two different locations. Our hopes with this project is to increase human interaction while maintaining social distancing in a post COVID-19 world. Something as simple as teaching a music lesson has been difficult, especially with a latency using softwares like video chat. We feel like we might have a solution for this issue that can help with still developing connections while being safe and 6 ft apart.
-              </p>
-
-              <div class="carousel-wrapper">
-                  <div class="carousel">
-                    <a class="carousel-item" href="#one!"><img src="g300x200"></a>
-                    <a class="carousel-item" href="#two!"><img src="g300x200"></a>
-                    <a class="carousel-item" href="#three!"><img src="g300x200"></a>
-                    <a class="carousel-item" href="#four!"><img src="g300x200"></a>
-                    <a class="carousel-item" href="#five!"><img src="g300x200"></a>
-                  </div>
-                </div>
-            </div>
-            <div class="gallery-action">
-              <a class="btn-floating btn-large waves-effect waves-light" target='_blank' href='https://asu.zoom.us/j/89344377365'><i class="material-icons">videocam</i></a>
-            </div>
-          </div>
-        </div>
-        <div class="col l4 m6 s12 gallery-item gallery-expand gallery-filter other">
-          <div class="gallery-curve-wrapper">
-            <a class="gallery-cover gray">
-              <img src="img/16.png" alt="placeholder">
-            </a>
-            <div class="gallery-body">
-              <div class="title-wrapper">
-                <h3>Stress Reliever App</h3>
-                <span class="price">Tarun Anandanpillai, Rahulrajan Karthikeyan</span>
-              </div>
-              <p class="description">
-              In the present world of the 21st century where the amount of stress people take in has reached a high. With COVID-19 striking the earth along with the usual stress that has been persistent unless explicitly removed. Therefore, we have found a way to help with the stress on a daily basis through our stress reliever app. Through this app you will be able to monitor your stress levels as well as reduce the levels through solutions provided by our application.
-              </p>
-
-              <div class="carousel-wrapper">
-                  <div class="carousel">
-                    <a class="carousel-item" href="#one!"><img src="g300x200"></a>
-                    <a class="carousel-item" href="#two!"><img src="g300x200"></a>
-                    <a class="carousel-item" href="#three!"><img src="g300x200"></a>
-                    <a class="carousel-item" href="#four!"><img src="g300x200"></a>
-                    <a class="carousel-item" href="#five!"><img src="g300x200"></a>
-                  </div>
-                </div>
-            </div>
-            <div class="gallery-action">
-              <a class="btn-floating btn-large waves-effect waves-light" target='_blank' href='https://asu.zoom.us/j/88405047722'><i class="material-icons">videocam</i></a>
-            </div>
-          </div>
-        </div>
-        <div class="col l4 m6 s12 gallery-item gallery-expand gallery-filter games">
-          <div class="gallery-curve-wrapper">
-            <a class="gallery-cover gray">
-              <img src="img/17.png" alt="placeholder">
-            </a>
-            <div class="gallery-body">
-              <div class="title-wrapper">
-                <h3>Take a Walk</h3>
-                <span class="price">Clayton Harris, Jacob Janezic, Michael Kotnik, Parker Marano</span>
-              </div>
-
-              <p class="description">
-              Take A Walk is a 2D top-down rpg adventure game where you play as our character Autumn and aid in her quest to survive in a new, unfamiliar environment and solve the mystery of her memory loss and the strangely familiar pages she finds along the way. Each page contains angsty clues as to who has written them and it is Autumn’s quest to find the owner of these pages and help them. Our core concept is to make a game that helps people struggling with anxiety feel less alone and feel more in control of their emotions. Our game includes simple game mechanics that will help the mental health of both the main character and the player. Autumn finds herself stranded in a desert and must make her way through the desert, a forest, and a mountain passage to get home. Along the way, Autumn meets some silly characters which do guide her in her journey, but mostly just need Autumn’s help.
-              </p>
-
-              <div class="carousel-wrapper">
-                  <div class="carousel">
-                    <a class="carousel-item" href="#one!"><img src="g300x200"></a>
-                    <a class="carousel-item" href="#two!"><img src="g300x200"></a>
-                    <a class="carousel-item" href="#three!"><img src="g300x200"></a>
-                    <a class="carousel-item" href="#four!"><img src="g300x200"></a>
-                    <a class="carousel-item" href="#five!"><img src="g300x200"></a>
-                  </div>
-                </div>
-
-            </div>
-            <div class="gallery-action">
-              <a class="btn-floating btn-large waves-effect waves-light" target='_blank' href='https://asu.zoom.us/j/89782312869'><i class="material-icons">videocam</i></a>
-            </div>
-          </div>
-        </div>
-        <div class="col l4 m6 s12 gallery-item gallery-expand gallery-filter games">
-          <div class="gallery-curve-wrapper">
-            <a class="gallery-cover gray">
-              <img class="responsive-img" src="img/18.png" alt="placeholder">
-            </a>
-            <div class="gallery-body">
-              <div class="title-wrapper">
-                <h3>The Hunt</h3>
-                <span class="price">Tyler Adame, Maxx Lewis, Yuanbo Li</span>
-              </div>
-              <p class="description">
-              
-              </p>
-
-              <div class="carousel-wrapper">
-                  <div class="carousel">
-                    <a class="carousel-item" href="#one!"><img src="g300x200"></a>
-                    <a class="carousel-item" href="#two!"><img src="g300x200"></a>
-                    <a class="carousel-item" href="#three!"><img src="g300x200"></a>
-                    <a class="carousel-item" href="#four!"><img src="g300x200"></a>
-                    <a class="carousel-item" href="#five!"><img src="g300x200"></a>
-                  </div>
-                </div>
-            </div>
-            <div class="gallery-action">
-              <a class="btn-floating btn-large waves-effect waves-light" target='_blank' href='https://asu.zoom.us/j/88588587553'><i class="material-icons black">videocam</i></a>
-            </div>
-          </div>
-        </div>
-        <div class="col l4 m6 s12 gallery-item gallery-expand gallery-filter other">
-          <div class="gallery-curve-wrapper">
-            <a class="gallery-cover gray">
-              <img class="responsive-img" src="img/19.png" alt="placeholder">
-            </a>
-            <div class="gallery-body">
-              <div class="title-wrapper">
-                <h3>Innovation (Mini Doc)</h3>
-                <span class="price">Collin Brown, Andrew Hershauer, Baylee Hough</span>
-              </div>
-              <p class="description">
-              </p>
-
-              <div class="carousel-wrapper">
-                  <div class="carousel">
-                    <a class="carousel-item" href="#one!"><img src="g300x200"></a>
-                    <a class="carousel-item" href="#two!"><img src="g300x200"></a>
-                    <a class="carousel-item" href="#three!"><img src="g300x200"></a>
-                    <a class="carousel-item" href="#four!"><img src="g300x200"></a>
-                    <a class="carousel-item" href="#five!"><img src="g300x200"></a>
-                  </div>
-                </div>
-            </div>
-            <div class="gallery-action">
-              <a class="btn-floating btn-large waves-effect waves-light" target='_blank' href='https://asu.zoom.us/j/87265290002'><i class="material-icons">videocam</i></a>
-            </div>
-          </div>
-        </div>
-
-        <div class="col l4 m6 s12 gallery-item gallery-expand gallery-filter interactive">
-          <div class="gallery-curve-wrapper">
-            <a class="gallery-cover gray">
-              <img class="responsive-img" src="img/20.png" alt="placeholder">
-            </a>
-            <div class="gallery-body">
-              <div class="title-wrapper">
-                <h3>Sen’tree’ent</h3>
-                <span class="price">Khanh Thi Nguyen, Anthony Airasolo, Meghan Beaudet</span> 
-
-              </div>
-              <p class="description">
-              Sen'tree'nt is an effort at recreating a tree that is sentient. It is a tree sculpture with leaves that alternate colors when it meets sunlight or when a user interacts with it (by coming in close contact and touching). We are fascinated by trees and want to create Sen'tree'nt to visualize the relationship between tree and sun, its life source, and help others see how captivating, fascinating and alive trees can be
-              </p>
-
-              <div class="carousel-wrapper">
-                  <div class="carousel">
-                    <a class="carousel-item" href="#one!"><img src="g300x200"></a>
-                    <a class="carousel-item" href="#two!"><img src="g300x200"></a>
-                    <a class="carousel-item" href="#three!"><img src="g300x200"></a>
-                    <a class="carousel-item" href="#four!"><img src="g300x200"></a>
-                    <a class="carousel-item" href="#five!"><img src="g300x200"></a>
-                  </div>
-                </div>
-            </div>
-            <div class="gallery-action">
-              <a class="btn-floating btn-large waves-effect waves-light" target='_blank' href='https://asu.zoom.us/j/81267686241'><i class="material-icons">videocam</i></a>
-            </div>
-          </div>
-        </div>
-
-        <div class="col l4 m6 s12 gallery-item gallery-expand gallery-filter other">
-          <div class="gallery-curve-wrapper">
-            <a class="gallery-cover gray">
-              <img class="responsive-img" src="img/21.png" alt="placeholder">
-            </a>
-            <div class="gallery-body">
-              <div class="title-wrapper">
-                <h3>Unreal IRL</h3>
-                <span class="price">Neiko Garcia, Daniel Kim, Hector Solis, Alex Stockman</span>
-              </div>
-              <p class="description">
-              Original Project: Original idea was to have parallax motion between a virtual camera and IRL camera with a 3D scene that was then imported into unity that would match up with the camera motions and lighting environment of person being recorded in front of a green screen. To have a more atmospheric/interactive background instead of a still image.<br>
-              Re-structed Project part 1 (Neiko and Hector): Since we were not able to get the motion between virtual camera and IRL camera, we will essentially do the project as if we did, basically faking the real time camera motion. We will do that by having similar lighting environments and camera motion and then editing them with a match cut approach. We will still be utilizing the 3D scene, but nothing will be done in real time. We will show how the project was originally intended to be done (real time camera motion) and why (the why being to show correspondence and being used in programs such as Zoom, OBS, etc.).<br>
-Re-structed Project part 2 (Daniel and Alex): Used blob tracking and worked in correspondence to track the position of a camera on a slider. Using scale and frame objects, I was able to green screen two different images together at the same corresponding angle.
-              </p>
-
-              <div class="carousel-wrapper">
-                  <div class="carousel">
-                    <a class="carousel-item" href="#one!"><img src="g300x200"></a>
-                    <a class="carousel-item" href="#two!"><img src="g300x200"></a>
-                    <a class="carousel-item" href="#three!"><img src="g300x200"></a>
-                    <a class="carousel-item" href="#four!"><img src="g300x200"></a>
-                    <a class="carousel-item" href="#five!"><img src="g300x200"></a>
-                  </div>
-                </div>
-            </div>
-            <div class="gallery-action">
-              <a class="btn-floating btn-large waves-effect waves-light" target='_blank' href='https://asu.zoom.us/j/88521595812'><i class="material-icons">videocam</i></a>
-            </div>
-          </div>
-        </div>
-
-
-      </div>
-
-    </div><!-- /.container -->
+    </div>
+    <!-- /.container -->
 
 
     <!-- Core Javascript -->
@@ -695,5 +736,6 @@ Re-structed Project part 2 (Daniel and Alex): Used blob tracking and worked in c
     <script src="js/galleryExpand.js"></script>
     <script src="js/init.js"></script>
 
-  </body>
+</body>
+
 </html>
