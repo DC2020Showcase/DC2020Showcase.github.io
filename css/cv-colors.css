@@ -1,0 +1,155 @@
+/* Define the "system" font family */
+@font-face {
+    font-family: system;
+    font-style: normal;
+    font-weight: 300;
+    src: local(".SFNSText-Light"), local(".HelveticaNeueDeskInterface-Light"), local(".LucidaGrandeUI"), local("Ubuntu Light"), local("Segoe UI Light"), local("Roboto-Light"), local("DroidSans"), local("Tahoma");
+}
+
+/* CritViz colors as variables
+-------------------------------------------------- */
+:root {
+    --cv-yellow-1: rgba(255,232,  0,1);
+
+    /* background-color: var(--cv-yellow-1); */
+    --cv-yellow-2: rgba(216,197,  9,1);
+    --cv-yellow-3: rgba(170,160, 57,1);
+    --cv-yellow-4: rgba(124,120, 77,1);
+    --cv-yellow-5: rgba( 78, 77, 71,1);
+    --cv-green-1: rgba(  0,208,  0,1);
+    --cv-green-2: rgba(  7,173,  7,1);
+    --cv-green-3: rgba( 45,136, 45,1);
+    --cv-green-4: rgba( 62, 99, 62,1);
+    --cv-green-5: rgba( 57, 62, 57,1);
+    --cv-orange-1: rgba(255,116,  0,1);
+    --cv-orange-2: rgba(216,103,  9,1);
+    --cv-orange-3: rgba(170,108, 57,1);
+    --cv-orange-4: rgba(124, 98, 77,1);
+    --cv-orange-5: rgba( 78, 74, 71,1);
+    --cv-grey-1: rgba(96,96, 96,1);
+    --cv-grey-2: rgba(128,128, 128,1);
+    --cv-grey-3: rgba(160,160, 160,1);
+    --cv-grey-4: rgba(192, 192, 192,1);
+    --cv-grey-5: rgba( 224, 224, 224,1);
+    --cv-white-transparent-1: rgba( 255, 255, 255,.75);
+    --cv-white-1: rgba( 235, 235, 235, 1);
+    --cv-white-2: rgba( 245, 245, 245, 1);
+    --cv-white-3: rgba( 255, 255, 255, 1);
+    --cv-shadow-1: -4px 6px 8px rgba(0, 0, 0, 0.90);
+
+    /* box-shadow: var(--cv-shadow-1); */
+}
+
+.cv_grey1 {
+    color: var(--cv-grey-1);
+}
+
+.cv_grey2 {
+    color: var(--cv-grey-2);
+}
+
+.cv_grey3 {
+    color: var(--cv-grey-3);
+}
+
+.cv_grey4 {
+    color: var(--cv-grey-4);
+}
+
+.cv_grey5 {
+    color: var(--cv-grey-5);
+}
+
+/* Shadows
+-------------------------------------------------- */
+.cv_box-shadow-small {
+    box-shadow: -2px 3px 10px rgba(0, 0, 0, 0.16);
+}
+
+.cv_box-shadow-big {
+    box-shadow: -3px 5px 15px rgba(0, 0, 0, 0.33);
+}
+
+.cv_text-shadow-small {
+    text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.12);
+}
+
+.cv_text-shadow-small-dark {
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
+}
+
+.cv_text-shadow-small-contrast {
+    text-shadow: 0px 0px 1px rgba(255, 181, 0, 0.19);
+}
+
+/* CritViz Fonts
+---------------------------------------------------------------------------------------------------------- */
+.cv_course-title {
+    font-family: Spectral;
+    font-weight: 400;
+    color: var(--cv-grey-1);
+    font-size: 3.5em;
+}
+
+.cv_course-subtitle {
+    font-family: Spectral;
+    font-weight: 400;
+    color: var(--cv-grey-1);
+    font-size: 1.3em;
+}
+
+.cv_text_sans {
+    font-family: Lato;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.cv_text_data {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    font-size: 18px;
+    word-break: break-word;
+    direction: ltr;
+    font-style: normal;
+    line-height: 20px;
+}
+
+.cv_text_sans-small {
+    font-family: Lato;
+    font-weight: 300;
+    text-decoration: none;
+    font-size: .8em;
+    color: #868686;
+}
+
+.cv_text_sans-small p {
+}
+
+div.a {
+    line-height: normal;
+}
+
+div.b {
+    line-height: 1.6;
+}
+
+div.c {
+    line-height: 80%;
+}
+
+.cv-question_well {
+    background-color: rgba(0, 0, 0, 0.05);
+    padding: 3px 6px 1px;
+}
+
+.cv_text-lyon #response {
+    font-family: 'Crimson Text',Georgia,serif;
+}
+
+.cv_text-lyon {
+    font-family: 'Crimson Text';
+    text-decoration: none;
+    font-size: 1em;
+    line-height: 1.7em;
+}
